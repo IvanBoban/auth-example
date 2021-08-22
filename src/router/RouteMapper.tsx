@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import RouteConfig from "../types/Route";
 
 interface GenericRouterProps {
@@ -9,7 +9,7 @@ interface GenericRouterProps {
 export default function RouteMapper(props: GenericRouterProps) {
   const { routes } = props;
   return (
-    <Switch>
+    <>
       {routes.map((route: RouteConfig) => {
         return (
           <Route
@@ -22,6 +22,6 @@ export default function RouteMapper(props: GenericRouterProps) {
           />
         );
       })}
-    </Switch>
+    </>
   );
 }

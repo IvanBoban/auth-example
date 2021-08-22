@@ -1,4 +1,3 @@
-import RouteConfig from "../../types/Route";
 import routes from "./routerConfig";
 import { Redirect, Route } from "react-router-dom";
 import { NOT_FOUND_PAGE } from "./routes";
