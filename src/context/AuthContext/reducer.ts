@@ -9,13 +9,13 @@ export default function reducer(
   action: AuthReducerActions
 ) {
   switch (action.type) {
-    case AuthReducerActionTypes.SIGN_IN:
+    case AuthReducerActionTypes.CONTEXT_SIGN_IN:
       return {
         ...state,
         isAuth: true,
       };
 
-    case AuthReducerActionTypes.SIGN_OUT:
+    case AuthReducerActionTypes.CONTEXT_SIGN_OUT:
       return {
         ...state,
         isAuth: false,

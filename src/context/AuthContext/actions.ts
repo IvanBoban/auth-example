@@ -1,9 +1,9 @@
-import { AuthReducerActionTypes, SignIn, SignOut } from "./types";
+import { AuthReducerActionTypes, ContextSignIn, ContextSignOut } from "./types";
 
-export const signIn = (): SignIn => ({
-  type: AuthReducerActionTypes.SIGN_IN,
+export const contextSignIn = (): ContextSignIn => ({
+  type: AuthReducerActionTypes.CONTEXT_SIGN_IN,
 });
 
-export const signOut = (): SignOut => ({
-  type: AuthReducerActionTypes.SIGN_OUT,
+export const contextSignOut = (): ContextSignOut => ({
+  type: AuthReducerActionTypes.CONTEXT_SIGN_OUT,
 });

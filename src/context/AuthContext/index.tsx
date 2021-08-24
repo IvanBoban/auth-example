@@ -1,6 +1,7 @@
 import React from "react";
 import { ContextProviderProps, ContextProps } from "../../types/Context";
 import reducer from "./reducer";
+import { AuthServiceProvider } from "./service";
 import { AuthContextState, AuthReducerActions } from "./types";
 
 const initialState = {
@@ -19,7 +20,7 @@ export const AuthContextProvider = (props: ContextProviderProps) => {
 
   return (
     <AuthContext.Provider value={{ state, dispatch }}>
-      {props.children}
+      <AuthServiceProvider>{props.children}</AuthServiceProvider>
     </AuthContext.Provider>
   );
 };
