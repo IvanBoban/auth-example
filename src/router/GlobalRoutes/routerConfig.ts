@@ -1,6 +1,6 @@
 import ErrorPage from "../../pages/Global/ErrorPage";
 import NotFoundPage from "../../pages/Global/NotFoundPage";
-import RouteConfig from "../../types/Route";
+import RouteConfig from "../types";
 import { ERROR_PAGE, NOT_FOUND_PAGE } from "./routes";
 
 const routes: Array<RouteConfig> = [

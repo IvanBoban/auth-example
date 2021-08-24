@@ -1,5 +1,5 @@
 import React from "react";
-import { ContextProviderProps, ContextProps } from "../../types/Context";
+import { ContextProviderProps, ContextProps } from "../types";
 import reducer from "./reducer";
 import { AuthServiceProvider } from "./service";
 import { AuthContextState, AuthReducerActions } from "./types";

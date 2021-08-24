@@ -1,6 +1,6 @@
 import LoginPage from "../../pages/Public/LoginPage";
 import SignUpPage from "../../pages/Public/SignUpPage";
-import RouteConfig from "../../types/Route";
+import RouteConfig from "../types";
 import { LOGIN_PAGE, SIGN_UP_PAGE } from "./routes";
 
 const routes: Array<RouteConfig> = [

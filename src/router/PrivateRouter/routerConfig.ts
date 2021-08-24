@@ -1,6 +1,6 @@
 import HomePage from "../../pages/Private/HomePage";
 import UserPage from "../../pages/Private/UserPage";
-import RouteConfig from "../../types/Route";
+import RouteConfig from "../types";
 import { HOME_PAGE, USER_PAGE } from "./routes";
 
 const routes: Array<RouteConfig> = [

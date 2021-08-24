@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import RouteConfig from "../types/Route";
+import RouteConfig from "./types";
 
 interface GenericRouterProps {
   routes: Array<RouteConfig>;
